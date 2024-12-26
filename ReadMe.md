@@ -1,6 +1,6 @@
 This is a 6809 assembly language game for the Dragon 32 that challenges you to move a chequered cursor around a standard 8x8 chess board, moving as the knight does in chess.
 
-The program was originally developed by Pat McCabe and Colin turner and was publish in the May 1986 edition of Dragon User magazine. 
+The program was originally developed by Pat McCabe and Colin Turner and was publish in the May 1986 edition of Dragon User magazine. 
 
 | File | Description |
 | --- | --- |
@@ -13,14 +13,12 @@ Please note, asm6809 and XROAR(and associated ROMS) are not included, but can be
 https://www.6809.org.uk/xroar/ <br> https://www.6809.org.uk/asm6809/
 
 To run the game without assembling the code file:
-+Download NiteMove.cas to your device
-+Open a browser and paste the following URL:  https://www.6809.org.uk/xroar/online/
-+Under the emulation screen, click the File tab
-+Click the load button, and select the downloaded NiteMove.cas
-+In the emulation screen, type the following
-        -CLOADM   <press enter>
-        -EXEC     <press enter>
-        
++ Download NiteMove.cas to your device
++ Open a browser and paste the following URL:  https://www.6809.org.uk/xroar/online/
++ Under the emulation screen, click the File tab
++ Click the load button, and select the downloaded NiteMove.cas
++ In the emulation screen, type the following: CLOADM:EXEC   <press enter>
+                
 In order for this game to run on the TRS-80 Color Computer, the following ROM sub-routines will need to be amended....
 
 | Dragon 32 | TRS-80 | Description |
