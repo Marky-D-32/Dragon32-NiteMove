@@ -25,7 +25,7 @@ In order for this game to run on the TRS-80 Color Computer, the following ROM su
 | --- | --- | --- |
 | $8006 (32774) | $A1C1 (41409) | POLCAT: scans keyboard and puts the character in A Register  |
 | $90E5 (37093) | $B99C (47516) | Outputs a text string to device number in DEVN (defaults to screen) | 
-| $978E (38798) |               | Generate an 8 bit random number and put it in location 278 |
+| $978E (38798) | $BF1F (48927) | Generate an 8 bit random number and put it in location 278 |
 | $B3B4 (46004) | $A027 (40999) | RESET:resets whole works, as if reset button has been pressed  |
 | $BA77 (47735) | $A928 (43304) | CLEAR SCREEN: clears screen to space and 'homes' cursor |
 
